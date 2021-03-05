@@ -5,6 +5,10 @@ class Dog
   end
 
   def name
-    @name
+    return @name
+  end
+
+  def bark 
+    puts "Woof!"
   end
 end 
